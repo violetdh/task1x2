@@ -1,0 +1,24 @@
+{
+  "name": "task_gecko",
+  "version": "1.0.0",
+  "description": "Given a set of symbol assets and dummy responses create your own very simple slot machine",
+  "main": "index.js",
+  "scripts": {
+    "local": "http-server -p 80 -o /index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://JordanHarrison1x2@bitbucket.org/1x2network/task_gecko.git"
+  },
+  "author": "Jordan Harrison",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/1x2network/task_gecko#readme",
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "pixi.js": "^7.1.4"
+  },
+  "bugs": {
+    "url": "https://bitbucket.org/1x2network/task_gecko/issues"
+  },
+  "keywords": []
+}

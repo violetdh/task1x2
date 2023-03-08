@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>1X2Gaming Task - gecko framework</title>
+
+	<script src="https://pixijs.download/release/pixi.js"></script>
+	<script src="./js/libs/gsap.min.js"></script>
+	<script src="./js/libs/pixi-spine.js"></script>
+
+</head>
+
+<body>
+   <script>
+      import "./styles.css";
+      import * as PIXI from "pixi.js";
+      import "pixi-spine";
+   </script>
+   <script src="./js/main.js"></script>
+  <!--<script>
+	// simple application configuration
+let config  = {width: 1920, height: 1080}
+window.addEventListener('load', function() {
+    //Create a Pixi Application
+    const app = new PIXI.Application(config);
+    document.body.appendChild(app.view);
+    console.log("hi!");
+    // create a new Sprite from an image path
+    const sprite = PIXI.Sprite.from('symbol_00.png');
+    
+    // center the sprite's anchor point
+    sprite.anchor.set(0.5);
+    
+    // move the sprite to the center of the screen
+    sprite.x = app.screen.width / 2;
+    sprite.y = app.screen.height / 2;
+    
+    app.stage.addChild(sprite);
+   });
+   </script> 
+</body>
+
+</html>
